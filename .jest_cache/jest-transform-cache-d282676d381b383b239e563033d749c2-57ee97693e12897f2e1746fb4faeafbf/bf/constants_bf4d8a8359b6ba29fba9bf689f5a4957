@@ -1,0 +1,116 @@
+2b910eb4e53d9a9da891d6189ce03517
+"use strict";
+
+/* istanbul ignore next */
+function cov_2nt2f0hl8z() {
+  var path = "/home/user/React Projects/payment-reports-test-task-master-updated/payment-reports-test-task-master/src/util/constants.ts";
+  var hash = "c77feabf8108faa8765e0a47539d446fa19d70bd";
+  var global = new Function("return this")();
+  var gcv = "__coverage__";
+  var coverageData = {
+    path: "/home/user/React Projects/payment-reports-test-task-master-updated/payment-reports-test-task-master/src/util/constants.ts",
+    statementMap: {
+      "0": {
+        start: {
+          line: 2,
+          column: 0
+        },
+        end: {
+          line: 2,
+          column: 62
+        }
+      },
+      "1": {
+        start: {
+          line: 3,
+          column: 0
+        },
+        end: {
+          line: 3,
+          column: 41
+        }
+      },
+      "2": {
+        start: {
+          line: 4,
+          column: 0
+        },
+        end: {
+          line: 18,
+          column: 2
+        }
+      },
+      "3": {
+        start: {
+          line: 19,
+          column: 0
+        },
+        end: {
+          line: 19,
+          column: 62
+        }
+      }
+    },
+    fnMap: {},
+    branchMap: {},
+    s: {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0
+    },
+    f: {},
+    b: {},
+    inputSourceMap: {
+      file: "/home/user/React Projects/payment-reports-test-task-master-updated/payment-reports-test-task-master/src/util/constants.ts",
+      mappings: ";;;AAAa,QAAA,MAAM,GAAG;IACpB,OAAO,EAAE,SAAS;IAClB,eAAe,EAAE,iBAAiB;IAClC,sBAAsB,EAAE,+CAA+C;IACvE,YAAY,EAAE,cAAc;IAC5B,YAAY,EAAE,cAAc;IAC5B,OAAO,EAAE,SAAS;IAClB,OAAO,EAAE,SAAS;IAClB,SAAS,EAAE,WAAW;IACtB,OAAO,EAAE,SAAS;IAClB,GAAG,EAAE,KAAK;IACV,KAAK,EAAE,OAAO;IACd,aAAa,EAAE,eAAe;IAC9B,gBAAgB,EAAE,mCAAmC;CACtD,CAAC;AAEW,QAAA,MAAM,GAAG,CAAC,SAAS,EAAE,SAAS,EAAE,SAAS,EAAE,SAAS,CAAC,CAAC",
+      names: [],
+      sources: ["/home/user/React Projects/payment-reports-test-task-master-updated/payment-reports-test-task-master/src/util/constants.ts"],
+      sourcesContent: ["export const report = {\n  REPORTS: \"Reports\",\n  GENERATE_REPORT: \"Generate report\",\n  EAISLY_GENRETAE_REPORT: \"Easily generate a report of your transactions\",\n  ALL_PROJECTS: \"All projects\",\n  ALL_GATEWAYS: \"All gateways\",\n  GATEWAY: \"gateway\",\n  PROJECT: \"project\",\n  FROM_DATE: \"From date\",\n  TO_DATE: \"To date\",\n  USD: \"USD\",\n  TOTAL: \"TOTAL\",\n  GATEWAY_TOTAL: \"GATEWAY TOTAL\",\n  TERMS_CONDITIONS: \"Terms&Conditions | Privacy policy\",\n};\n\nexport const colors = [\"#A259FF\", \"#FFC107\", \"#F24E1E\", \"#6497B1\"];\n"],
+      version: 3
+    },
+    _coverageSchema: "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    hash: "c77feabf8108faa8765e0a47539d446fa19d70bd"
+  };
+  var coverage = global[gcv] || (global[gcv] = {});
+  if (!coverage[path] || coverage[path].hash !== hash) {
+    coverage[path] = coverageData;
+  }
+  var actualCoverage = coverage[path];
+  {
+    // @ts-ignore
+    cov_2nt2f0hl8z = function () {
+      return actualCoverage;
+    };
+  }
+  return actualCoverage;
+}
+cov_2nt2f0hl8z();
+cov_2nt2f0hl8z().s[0]++;
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+/* istanbul ignore next */
+cov_2nt2f0hl8z().s[1]++;
+exports.colors = exports.report = void 0;
+/* istanbul ignore next */
+cov_2nt2f0hl8z().s[2]++;
+exports.report = {
+  REPORTS: "Reports",
+  GENERATE_REPORT: "Generate report",
+  EAISLY_GENRETAE_REPORT: "Easily generate a report of your transactions",
+  ALL_PROJECTS: "All projects",
+  ALL_GATEWAYS: "All gateways",
+  GATEWAY: "gateway",
+  PROJECT: "project",
+  FROM_DATE: "From date",
+  TO_DATE: "To date",
+  USD: "USD",
+  TOTAL: "TOTAL",
+  GATEWAY_TOTAL: "GATEWAY TOTAL",
+  TERMS_CONDITIONS: "Terms&Conditions | Privacy policy"
+};
+/* istanbul ignore next */
+cov_2nt2f0hl8z().s[3]++;
+exports.colors = ["#A259FF", "#FFC107", "#F24E1E", "#6497B1"];
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7OztJQVlFO0lBQUE7TUFBQTtJQUFBO0VBQUE7RUFBQTtBQUFBO0FBQUE7QUFBQTs7Ozs7Ozs7O0FBWldBLGNBQU0sR0FBRztFQUNwQkMsT0FBTyxFQUFFLFNBQVM7RUFDbEJDLGVBQWUsRUFBRSxpQkFBaUI7RUFDbENDLHNCQUFzQixFQUFFLCtDQUErQztFQUN2RUMsWUFBWSxFQUFFLGNBQWM7RUFDNUJDLFlBQVksRUFBRSxjQUFjO0VBQzVCQyxPQUFPLEVBQUUsU0FBUztFQUNsQkMsT0FBTyxFQUFFLFNBQVM7RUFDbEJDLFNBQVMsRUFBRSxXQUFXO0VBQ3RCQyxPQUFPLEVBQUUsU0FBUztFQUNsQkMsR0FBRyxFQUFFLEtBQUs7RUFDVkMsS0FBSyxFQUFFLE9BQU87RUFDZEMsYUFBYSxFQUFFLGVBQWU7RUFDOUJDLGdCQUFnQixFQUFFO0NBQ25CO0FBQUM7QUFBQTtBQUVXYixjQUFNLEdBQUcsQ0FBQyxTQUFTLEVBQUUsU0FBUyxFQUFFLFNBQVMsRUFBRSxTQUFTLENBQUMiLCJuYW1lcyI6WyJleHBvcnRzIiwiUkVQT1JUUyIsIkdFTkVSQVRFX1JFUE9SVCIsIkVBSVNMWV9HRU5SRVRBRV9SRVBPUlQiLCJBTExfUFJPSkVDVFMiLCJBTExfR0FURVdBWVMiLCJHQVRFV0FZIiwiUFJPSkVDVCIsIkZST01fREFURSIsIlRPX0RBVEUiLCJVU0QiLCJUT1RBTCIsIkdBVEVXQVlfVE9UQUwiLCJURVJNU19DT05ESVRJT05TIl0sInNvdXJjZXMiOlsiL2hvbWUvdXNlci9SZWFjdCBQcm9qZWN0cy9wYXltZW50LXJlcG9ydHMtdGVzdC10YXNrLW1hc3Rlci11cGRhdGVkL3BheW1lbnQtcmVwb3J0cy10ZXN0LXRhc2stbWFzdGVyL3NyYy91dGlsL2NvbnN0YW50cy50cyJdLCJzb3VyY2VzQ29udGVudCI6WyJleHBvcnQgY29uc3QgcmVwb3J0ID0ge1xuICBSRVBPUlRTOiBcIlJlcG9ydHNcIixcbiAgR0VORVJBVEVfUkVQT1JUOiBcIkdlbmVyYXRlIHJlcG9ydFwiLFxuICBFQUlTTFlfR0VOUkVUQUVfUkVQT1JUOiBcIkVhc2lseSBnZW5lcmF0ZSBhIHJlcG9ydCBvZiB5b3VyIHRyYW5zYWN0aW9uc1wiLFxuICBBTExfUFJPSkVDVFM6IFwiQWxsIHByb2plY3RzXCIsXG4gIEFMTF9HQVRFV0FZUzogXCJBbGwgZ2F0ZXdheXNcIixcbiAgR0FURVdBWTogXCJnYXRld2F5XCIsXG4gIFBST0pFQ1Q6IFwicHJvamVjdFwiLFxuICBGUk9NX0RBVEU6IFwiRnJvbSBkYXRlXCIsXG4gIFRPX0RBVEU6IFwiVG8gZGF0ZVwiLFxuICBVU0Q6IFwiVVNEXCIsXG4gIFRPVEFMOiBcIlRPVEFMXCIsXG4gIEdBVEVXQVlfVE9UQUw6IFwiR0FURVdBWSBUT1RBTFwiLFxuICBURVJNU19DT05ESVRJT05TOiBcIlRlcm1zJkNvbmRpdGlvbnMgfCBQcml2YWN5IHBvbGljeVwiLFxufTtcblxuZXhwb3J0IGNvbnN0IGNvbG9ycyA9IFtcIiNBMjU5RkZcIiwgXCIjRkZDMTA3XCIsIFwiI0YyNEUxRVwiLCBcIiM2NDk3QjFcIl07XG4iXX0=

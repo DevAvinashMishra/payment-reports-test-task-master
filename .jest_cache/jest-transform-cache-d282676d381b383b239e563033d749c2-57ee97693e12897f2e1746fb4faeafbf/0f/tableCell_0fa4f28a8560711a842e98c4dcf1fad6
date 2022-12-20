@@ -1,0 +1,166 @@
+3707305511f962f51537271d6697f700
+"use strict";
+
+/* istanbul ignore next */
+function cov_22qe3n25v9() {
+  var path = "/home/user/React Projects/payment-reports-test-task-master-updated/payment-reports-test-task-master/src/components/SimpleTable/tableCell.tsx";
+  var hash = "c21c549b29666834513799df75c2f120bcd26032";
+  var global = new Function("return this")();
+  var gcv = "__coverage__";
+  var coverageData = {
+    path: "/home/user/React Projects/payment-reports-test-task-master-updated/payment-reports-test-task-master/src/components/SimpleTable/tableCell.tsx",
+    statementMap: {
+      "0": {
+        start: {
+          line: 2,
+          column: 0
+        },
+        end: {
+          line: 2,
+          column: 62
+        }
+      },
+      "1": {
+        start: {
+          line: 3,
+          column: 15
+        },
+        end: {
+          line: 3,
+          column: 46
+        }
+      },
+      "2": {
+        start: {
+          line: 4,
+          column: 17
+        },
+        end: {
+          line: 4,
+          column: 41
+        }
+      },
+      "3": {
+        start: {
+          line: 5,
+          column: 0
+        },
+        end: {
+          line: 17,
+          column: 3
+        }
+      },
+      "4": {
+        start: {
+          line: 7,
+          column: 16
+        },
+        end: {
+          line: 7,
+          column: 24
+        }
+      },
+      "5": {
+        start: {
+          line: 8,
+          column: 4
+        },
+        end: {
+          line: 16,
+          column: 12
+        }
+      }
+    },
+    fnMap: {
+      "0": {
+        name: "(anonymous_0)",
+        decl: {
+          start: {
+            line: 5,
+            column: 61
+          },
+          end: {
+            line: 5,
+            column: 62
+          }
+        },
+        loc: {
+          start: {
+            line: 5,
+            column: 75
+          },
+          end: {
+            line: 17,
+            column: 1
+          }
+        },
+        line: 5
+      }
+    },
+    branchMap: {},
+    s: {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    f: {
+      "0": 0
+    },
+    b: {},
+    inputSourceMap: {
+      file: "/home/user/React Projects/payment-reports-test-task-master-updated/payment-reports-test-task-master/src/components/SimpleTable/tableCell.tsx",
+      mappings: ";;AAAA,+CAA8C;AAC9C,0CAA4D;AAE5D,kBAAe,IAAA,eAAM,EAAC,oBAAS,CAAC,CAAC,UAAC,EAAS;;QAAP,KAAK,WAAA;IAAO,OAAA;QAC9C,GAAC,YAAK,2BAAgB,CAAC,IAAI,CAAE,IAAG;YAC9B,eAAe,EAAE,KAAK,CAAC,OAAO,CAAC,MAAM,CAAC,KAAK;YAC3C,KAAK,EAAE,KAAK,CAAC,OAAO,CAAC,MAAM,CAAC,KAAK;SAClC;QACD,GAAC,YAAK,2BAAgB,CAAC,IAAI,CAAE,IAAG;YAC9B,QAAQ,EAAE,EAAE;SACb;WACD;AAR8C,CAQ9C,CAAC,CAAC",
+      names: [],
+      sources: ["/home/user/React Projects/payment-reports-test-task-master-updated/payment-reports-test-task-master/src/components/SimpleTable/tableCell.tsx"],
+      sourcesContent: ["import { styled } from \"@mui/material/styles\";\nimport { TableCell, tableCellClasses } from \"@mui/material\";\n\nexport default styled(TableCell)(({ theme }) => ({\n  [`&.${tableCellClasses.head}`]: {\n    backgroundColor: theme.palette.common.black,\n    color: theme.palette.common.white,\n  },\n  [`&.${tableCellClasses.body}`]: {\n    fontSize: 14,\n  },\n}));\n"],
+      version: 3
+    },
+    _coverageSchema: "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    hash: "c21c549b29666834513799df75c2f120bcd26032"
+  };
+  var coverage = global[gcv] || (global[gcv] = {});
+  if (!coverage[path] || coverage[path].hash !== hash) {
+    coverage[path] = coverageData;
+  }
+  var actualCoverage = coverage[path];
+  {
+    // @ts-ignore
+    cov_22qe3n25v9 = function () {
+      return actualCoverage;
+    };
+  }
+  return actualCoverage;
+}
+cov_22qe3n25v9();
+cov_22qe3n25v9().s[0]++;
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+var styles_1 =
+/* istanbul ignore next */
+(cov_22qe3n25v9().s[1]++, require("@mui/material/styles"));
+var material_1 =
+/* istanbul ignore next */
+(cov_22qe3n25v9().s[2]++, require("@mui/material"));
+/* istanbul ignore next */
+cov_22qe3n25v9().s[3]++;
+exports.default = (0, styles_1.styled)(material_1.TableCell)(function (_a) {
+  /* istanbul ignore next */
+  cov_22qe3n25v9().f[0]++;
+  var _b;
+  var theme =
+  /* istanbul ignore next */
+  (cov_22qe3n25v9().s[4]++, _a.theme);
+  /* istanbul ignore next */
+  cov_22qe3n25v9().s[5]++;
+  return _b = {}, _b["&.".concat(material_1.tableCellClasses.head)] = {
+    backgroundColor: theme.palette.common.black,
+    color: theme.palette.common.white
+  }, _b["&.".concat(material_1.tableCellClasses.body)] = {
+    fontSize: 14
+  }, _b;
+});
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7SUFXRTtJQUFBO01BQUE7SUFBQTtFQUFBO0VBQUE7QUFBQTtBQUFBO0FBQUE7Ozs7QUFYRjtBQUFBO0FBQUE7QUFDQTtBQUFBO0FBQUE7QUFBNEQ7QUFBQTtBQUU1REEsa0JBQWUsbUJBQU0sRUFBQ0Msb0JBQVMsQ0FBQyxDQUFDLFVBQUNDLEVBQVM7RUFBQTtFQUFBOztNQUFQQyxLQUFLO0VBQUE7RUFBQTtFQUFBO0VBQUE7RUFBTyxnQkFDOUNDLEdBQUMsWUFBS0gsMkJBQWdCLENBQUNJLElBQUksQ0FBRSxJQUFHO0lBQzlCQyxlQUFlLEVBQUVILEtBQUssQ0FBQ0ksT0FBTyxDQUFDQyxNQUFNLENBQUNDLEtBQUs7SUFDM0NDLEtBQUssRUFBRVAsS0FBSyxDQUFDSSxPQUFPLENBQUNDLE1BQU0sQ0FBQ0c7R0FDN0IsRUFDRFAsR0FBQyxZQUFLSCwyQkFBZ0IsQ0FBQ1csSUFBSSxDQUFFLElBQUc7SUFDOUJDLFFBQVEsRUFBRTtHQUNYO0FBUDZDLENBUTlDLENBQUMiLCJuYW1lcyI6WyJleHBvcnRzIiwibWF0ZXJpYWxfMSIsIl9hIiwidGhlbWUiLCJfYiIsImhlYWQiLCJiYWNrZ3JvdW5kQ29sb3IiLCJwYWxldHRlIiwiY29tbW9uIiwiYmxhY2siLCJjb2xvciIsIndoaXRlIiwiYm9keSIsImZvbnRTaXplIl0sInNvdXJjZXMiOlsiL2hvbWUvdXNlci9SZWFjdCBQcm9qZWN0cy9wYXltZW50LXJlcG9ydHMtdGVzdC10YXNrLW1hc3Rlci11cGRhdGVkL3BheW1lbnQtcmVwb3J0cy10ZXN0LXRhc2stbWFzdGVyL3NyYy9jb21wb25lbnRzL1NpbXBsZVRhYmxlL3RhYmxlQ2VsbC50c3giXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgc3R5bGVkIH0gZnJvbSBcIkBtdWkvbWF0ZXJpYWwvc3R5bGVzXCI7XG5pbXBvcnQgeyBUYWJsZUNlbGwsIHRhYmxlQ2VsbENsYXNzZXMgfSBmcm9tIFwiQG11aS9tYXRlcmlhbFwiO1xuXG5leHBvcnQgZGVmYXVsdCBzdHlsZWQoVGFibGVDZWxsKSgoeyB0aGVtZSB9KSA9PiAoe1xuICBbYCYuJHt0YWJsZUNlbGxDbGFzc2VzLmhlYWR9YF06IHtcbiAgICBiYWNrZ3JvdW5kQ29sb3I6IHRoZW1lLnBhbGV0dGUuY29tbW9uLmJsYWNrLFxuICAgIGNvbG9yOiB0aGVtZS5wYWxldHRlLmNvbW1vbi53aGl0ZSxcbiAgfSxcbiAgW2AmLiR7dGFibGVDZWxsQ2xhc3Nlcy5ib2R5fWBdOiB7XG4gICAgZm9udFNpemU6IDE0LFxuICB9LFxufSkpO1xuIl19

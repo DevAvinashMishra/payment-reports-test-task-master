@@ -1,0 +1,31 @@
+4c89aa8c988320ab7351739bc91dd700
+"use strict";
+var __assign = (this && this.__assign) || function () {
+    __assign = Object.assign || function(t) {
+        for (var s, i = 1, n = arguments.length; i < n; i++) {
+            s = arguments[i];
+            for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p))
+                t[p] = s[p];
+        }
+        return t;
+    };
+    return __assign.apply(this, arguments);
+};
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+var jsx_runtime_1 = require("react/jsx-runtime");
+var Typography_1 = __importDefault(require("@mui/material/Typography"));
+require("./styles.css");
+var constants_1 = require("../../../util/constants");
+var AccordionSummary = function (_a) {
+    var projectName = _a.projectName, grandTotalPayment = _a.grandTotalPayment;
+    return ((0, jsx_runtime_1.jsx)(jsx_runtime_1.Fragment, { children: (0, jsx_runtime_1.jsxs)("div", __assign({ className: "accordion-summary-container" }, { children: [(0, jsx_runtime_1.jsx)(Typography_1.default, __assign({ sx: {
+                        fontWeight: 700,
+                    } }, { children: projectName }), void 0), (0, jsx_runtime_1.jsx)(Typography_1.default, __assign({ sx: {
+                        fontWeight: 700,
+                    } }, { children: "".concat(constants_1.report.TOTAL, " : ").concat(grandTotalPayment, " ").concat(constants_1.report.USD) }), void 0)] }), void 0) }, void 0));
+};
+exports.default = AccordionSummary;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJmaWxlIjoiL2hvbWUvdXNlci9SZWFjdCBQcm9qZWN0cy9wYXltZW50LXJlcG9ydHMtdGVzdC10YXNrLW1hc3Rlci11cGRhdGVkL3BheW1lbnQtcmVwb3J0cy10ZXN0LXRhc2stbWFzdGVyL3NyYy9jb21wb25lbnRzL0FjY29yZGlvbi9BY2NvcmRpb25TdW1tYXJ5L2luZGV4LnRzeCIsIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7Ozs7Ozs7OztBQUNBLHdFQUFrRDtBQUNsRCx3QkFBc0I7QUFDdEIscURBQWdEO0FBT2hELElBQU0sZ0JBQWdCLEdBQUcsVUFBQyxFQUEwQztRQUF4QyxXQUFXLGlCQUFBLEVBQUUsaUJBQWlCLHVCQUFBO0lBQWUsT0FBQSxDQUN2RSwyREFDRSwwQ0FBSyxTQUFTLEVBQUMsNkJBQTZCLGlCQUMxQyx1QkFBQyxvQkFBVSxhQUNULEVBQUUsRUFBRTt3QkFDRixVQUFVLEVBQUUsR0FBRztxQkFDaEIsZ0JBRUEsV0FBVyxZQUNELEVBQ2IsdUJBQUMsb0JBQVUsYUFDVCxFQUFFLEVBQUU7d0JBQ0YsVUFBVSxFQUFFLEdBQUc7cUJBQ2hCLGdCQUNELFVBQUcsa0JBQU0sQ0FBQyxLQUFLLGdCQUFNLGlCQUFpQixjQUFJLGtCQUFNLENBQUMsR0FBRyxDQUFFLFlBQWMsYUFDbEUsV0FDTCxDQUNKO0FBakJ3RSxDQWlCeEUsQ0FBQztBQUVGLGtCQUFlLGdCQUFnQixDQUFDIiwibmFtZXMiOltdLCJzb3VyY2VzIjpbIi9ob21lL3VzZXIvUmVhY3QgUHJvamVjdHMvcGF5bWVudC1yZXBvcnRzLXRlc3QtdGFzay1tYXN0ZXItdXBkYXRlZC9wYXltZW50LXJlcG9ydHMtdGVzdC10YXNrLW1hc3Rlci9zcmMvY29tcG9uZW50cy9BY2NvcmRpb24vQWNjb3JkaW9uU3VtbWFyeS9pbmRleC50c3giXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJlYWN0IGZyb20gXCJyZWFjdFwiO1xuaW1wb3J0IFR5cG9ncmFwaHkgZnJvbSBcIkBtdWkvbWF0ZXJpYWwvVHlwb2dyYXBoeVwiO1xuaW1wb3J0IFwiLi9zdHlsZXMuY3NzXCI7XG5pbXBvcnQgeyByZXBvcnQgfSBmcm9tICcuLi8uLi8uLi91dGlsL2NvbnN0YW50cydcblxudHlwZSBUUHJvcHMgPSB7XG4gIHByb2plY3ROYW1lOiBzdHJpbmc7XG4gIGdyYW5kVG90YWxQYXltZW50OiBzdHJpbmc7XG59O1xuXG5jb25zdCBBY2NvcmRpb25TdW1tYXJ5ID0gKHsgcHJvamVjdE5hbWUsIGdyYW5kVG90YWxQYXltZW50IH06IFRQcm9wcykgPT4gKFxuICA8PlxuICAgIDxkaXYgY2xhc3NOYW1lPVwiYWNjb3JkaW9uLXN1bW1hcnktY29udGFpbmVyXCI+XG4gICAgICA8VHlwb2dyYXBoeVxuICAgICAgICBzeD17e1xuICAgICAgICAgIGZvbnRXZWlnaHQ6IDcwMCxcbiAgICAgICAgfX1cbiAgICAgID5cbiAgICAgICAge3Byb2plY3ROYW1lfVxuICAgICAgPC9UeXBvZ3JhcGh5PlxuICAgICAgPFR5cG9ncmFwaHlcbiAgICAgICAgc3g9e3tcbiAgICAgICAgICBmb250V2VpZ2h0OiA3MDAsXG4gICAgICAgIH19XG4gICAgICA+e2Ake3JlcG9ydC5UT1RBTH0gOiAke2dyYW5kVG90YWxQYXltZW50fSAke3JlcG9ydC5VU0R9YH08L1R5cG9ncmFwaHk+XG4gICAgPC9kaXY+XG4gIDwvPlxuKTtcblxuZXhwb3J0IGRlZmF1bHQgQWNjb3JkaW9uU3VtbWFyeTtcbiJdLCJ2ZXJzaW9uIjozfQ==

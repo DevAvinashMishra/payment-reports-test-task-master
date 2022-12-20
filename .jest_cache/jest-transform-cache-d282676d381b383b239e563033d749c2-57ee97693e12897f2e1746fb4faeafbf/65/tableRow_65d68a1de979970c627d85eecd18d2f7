@@ -1,0 +1,367 @@
+fb5f5e32b14ea7ea4375eca78646e175
+"use strict";
+
+/* istanbul ignore next */
+function cov_17gymxhx69() {
+  var path = "/home/user/React Projects/payment-reports-test-task-master-updated/payment-reports-test-task-master/src/components/SimpleTable/tableRow.tsx";
+  var hash = "464416fa2676a802842e4e3b11ff9c4af5a2a781";
+  var global = new Function("return this")();
+  var gcv = "__coverage__";
+  var coverageData = {
+    path: "/home/user/React Projects/payment-reports-test-task-master-updated/payment-reports-test-task-master/src/components/SimpleTable/tableRow.tsx",
+    statementMap: {
+      "0": {
+        start: {
+          line: 2,
+          column: 22
+        },
+        end: {
+          line: 4,
+          column: 1
+        }
+      },
+      "1": {
+        start: {
+          line: 3,
+          column: 4
+        },
+        end: {
+          line: 3,
+          column: 62
+        }
+      },
+      "2": {
+        start: {
+          line: 5,
+          column: 0
+        },
+        end: {
+          line: 5,
+          column: 62
+        }
+      },
+      "3": {
+        start: {
+          line: 6,
+          column: 15
+        },
+        end: {
+          line: 6,
+          column: 46
+        }
+      },
+      "4": {
+        start: {
+          line: 7,
+          column: 17
+        },
+        end: {
+          line: 7,
+          column: 67
+        }
+      },
+      "5": {
+        start: {
+          line: 8,
+          column: 21
+        },
+        end: {
+          line: 18,
+          column: 2
+        }
+      },
+      "6": {
+        start: {
+          line: 9,
+          column: 16
+        },
+        end: {
+          line: 9,
+          column: 24
+        }
+      },
+      "7": {
+        start: {
+          line: 10,
+          column: 4
+        },
+        end: {
+          line: 17,
+          column: 7
+        }
+      },
+      "8": {
+        start: {
+          line: 19,
+          column: 0
+        },
+        end: {
+          line: 19,
+          column: 33
+        }
+      }
+    },
+    fnMap: {
+      "0": {
+        name: "(anonymous_0)",
+        decl: {
+          start: {
+            line: 2,
+            column: 56
+          },
+          end: {
+            line: 2,
+            column: 57
+          }
+        },
+        loc: {
+          start: {
+            line: 2,
+            column: 71
+          },
+          end: {
+            line: 4,
+            column: 1
+          }
+        },
+        line: 2
+      },
+      "1": {
+        name: "(anonymous_1)",
+        decl: {
+          start: {
+            line: 8,
+            column: 62
+          },
+          end: {
+            line: 8,
+            column: 63
+          }
+        },
+        loc: {
+          start: {
+            line: 8,
+            column: 76
+          },
+          end: {
+            line: 18,
+            column: 1
+          }
+        },
+        line: 8
+      }
+    },
+    branchMap: {
+      "0": {
+        loc: {
+          start: {
+            line: 2,
+            column: 22
+          },
+          end: {
+            line: 4,
+            column: 1
+          }
+        },
+        type: "binary-expr",
+        locations: [{
+          start: {
+            line: 2,
+            column: 23
+          },
+          end: {
+            line: 2,
+            column: 27
+          }
+        }, {
+          start: {
+            line: 2,
+            column: 31
+          },
+          end: {
+            line: 2,
+            column: 51
+          }
+        }, {
+          start: {
+            line: 2,
+            column: 56
+          },
+          end: {
+            line: 4,
+            column: 1
+          }
+        }],
+        line: 2
+      },
+      "1": {
+        loc: {
+          start: {
+            line: 3,
+            column: 11
+          },
+          end: {
+            line: 3,
+            column: 61
+          }
+        },
+        type: "cond-expr",
+        locations: [{
+          start: {
+            line: 3,
+            column: 37
+          },
+          end: {
+            line: 3,
+            column: 40
+          }
+        }, {
+          start: {
+            line: 3,
+            column: 43
+          },
+          end: {
+            line: 3,
+            column: 61
+          }
+        }],
+        line: 3
+      },
+      "2": {
+        loc: {
+          start: {
+            line: 3,
+            column: 12
+          },
+          end: {
+            line: 3,
+            column: 33
+          }
+        },
+        type: "binary-expr",
+        locations: [{
+          start: {
+            line: 3,
+            column: 12
+          },
+          end: {
+            line: 3,
+            column: 15
+          }
+        }, {
+          start: {
+            line: 3,
+            column: 19
+          },
+          end: {
+            line: 3,
+            column: 33
+          }
+        }],
+        line: 3
+      }
+    },
+    s: {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0
+    },
+    f: {
+      "0": 0,
+      "1": 0
+    },
+    b: {
+      "0": [0, 0, 0],
+      "1": [0, 0],
+      "2": [0, 0]
+    },
+    inputSourceMap: {
+      file: "/home/user/React Projects/payment-reports-test-task-master-updated/payment-reports-test-task-master/src/components/SimpleTable/tableRow.tsx",
+      mappings: ";;;;;AAAA,+CAA8C;AAC9C,oEAA8C;AAE9C,IAAM,cAAc,GAAG,IAAA,eAAM,EAAC,kBAAQ,CAAC,CAAC,UAAC,EAAS;QAAP,KAAK,WAAA;IAAO,OAAA,CAAC;QACtD,oBAAoB,EAAE;YACpB,eAAe,EAAE,KAAK,CAAC,OAAO,CAAC,MAAM,CAAC,KAAK;SAC5C;QACD,kCAAkC,EAAE;YAClC,MAAM,EAAE,CAAC;SACV;KACF,CAAC;AAPqD,CAOrD,CAAC,CAAC;AACJ,kBAAe,cAAc,CAAC",
+      names: [],
+      sources: ["/home/user/React Projects/payment-reports-test-task-master-updated/payment-reports-test-task-master/src/components/SimpleTable/tableRow.tsx"],
+      sourcesContent: ["import { styled } from \"@mui/material/styles\";\nimport TableRow from \"@mui/material/TableRow\";\n\nconst StyledTableRow = styled(TableRow)(({ theme }) => ({\n  \"&:nth-of-type(odd)\": {\n    backgroundColor: theme.palette.action.hover,\n  },\n  \"&:last-child td, &:last-child th\": {\n    border: 0,\n  },\n}));\nexport default StyledTableRow;"],
+      version: 3
+    },
+    _coverageSchema: "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    hash: "464416fa2676a802842e4e3b11ff9c4af5a2a781"
+  };
+  var coverage = global[gcv] || (global[gcv] = {});
+  if (!coverage[path] || coverage[path].hash !== hash) {
+    coverage[path] = coverageData;
+  }
+  var actualCoverage = coverage[path];
+  {
+    // @ts-ignore
+    cov_17gymxhx69 = function () {
+      return actualCoverage;
+    };
+  }
+  return actualCoverage;
+}
+cov_17gymxhx69();
+var __importDefault =
+/* istanbul ignore next */
+(cov_17gymxhx69().s[0]++,
+/* istanbul ignore next */
+(cov_17gymxhx69().b[0][0]++, this) &&
+/* istanbul ignore next */
+(cov_17gymxhx69().b[0][1]++, this.__importDefault) ||
+/* istanbul ignore next */
+(cov_17gymxhx69().b[0][2]++, function (mod) {
+  /* istanbul ignore next */
+  cov_17gymxhx69().f[0]++;
+  cov_17gymxhx69().s[1]++;
+  return (
+    /* istanbul ignore next */
+    (cov_17gymxhx69().b[2][0]++, mod) &&
+    /* istanbul ignore next */
+    (cov_17gymxhx69().b[2][1]++, mod.__esModule) ?
+    /* istanbul ignore next */
+    (cov_17gymxhx69().b[1][0]++, mod) :
+    /* istanbul ignore next */
+    (cov_17gymxhx69().b[1][1]++, {
+      "default": mod
+    })
+  );
+}));
+/* istanbul ignore next */
+cov_17gymxhx69().s[2]++;
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+var styles_1 =
+/* istanbul ignore next */
+(cov_17gymxhx69().s[3]++, require("@mui/material/styles"));
+var TableRow_1 =
+/* istanbul ignore next */
+(cov_17gymxhx69().s[4]++, __importDefault(require("@mui/material/TableRow")));
+var StyledTableRow =
+/* istanbul ignore next */
+(cov_17gymxhx69().s[5]++, (0, styles_1.styled)(TableRow_1.default)(function (_a) {
+  /* istanbul ignore next */
+  cov_17gymxhx69().f[1]++;
+  var theme =
+  /* istanbul ignore next */
+  (cov_17gymxhx69().s[6]++, _a.theme);
+  /* istanbul ignore next */
+  cov_17gymxhx69().s[7]++;
+  return {
+    "&:nth-of-type(odd)": {
+      backgroundColor: theme.palette.action.hover
+    },
+    "&:last-child td, &:last-child th": {
+      border: 0
+    }
+  };
+}));
+/* istanbul ignore next */
+cov_17gymxhx69().s[8]++;
+exports.default = StyledTableRow;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7SUFTRztJQUFBO01BQUE7SUFBQTtFQUFBO0VBQUE7QUFBQTtBQUFBOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O0FBVEg7QUFBQTtBQUFBO0FBQ0E7QUFBQTtBQUFBO0FBRUEsSUFBTUEsY0FBYztBQUFBO0FBQUEsMEJBQUcsbUJBQU0sRUFBQ0Msa0JBQVEsQ0FBQyxDQUFDLFVBQUNDLEVBQVM7RUFBQTtFQUFBO01BQVBDLEtBQUs7RUFBQTtFQUFBO0VBQUE7RUFBQTtFQUFPLE9BQUM7SUFDdEQsb0JBQW9CLEVBQUU7TUFDcEJDLGVBQWUsRUFBRUQsS0FBSyxDQUFDRSxPQUFPLENBQUNDLE1BQU0sQ0FBQ0M7S0FDdkM7SUFDRCxrQ0FBa0MsRUFBRTtNQUNsQ0MsTUFBTSxFQUFFOztHQUVYO0FBUHNELENBT3JELENBQUM7QUFBQztBQUFBO0FBQ0pDLGtCQUFlVCxjQUFjIiwibmFtZXMiOlsiU3R5bGVkVGFibGVSb3ciLCJUYWJsZVJvd18xIiwiX2EiLCJ0aGVtZSIsImJhY2tncm91bmRDb2xvciIsInBhbGV0dGUiLCJhY3Rpb24iLCJob3ZlciIsImJvcmRlciIsImV4cG9ydHMiXSwic291cmNlcyI6WyIvaG9tZS91c2VyL1JlYWN0IFByb2plY3RzL3BheW1lbnQtcmVwb3J0cy10ZXN0LXRhc2stbWFzdGVyLXVwZGF0ZWQvcGF5bWVudC1yZXBvcnRzLXRlc3QtdGFzay1tYXN0ZXIvc3JjL2NvbXBvbmVudHMvU2ltcGxlVGFibGUvdGFibGVSb3cudHN4Il0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IHN0eWxlZCB9IGZyb20gXCJAbXVpL21hdGVyaWFsL3N0eWxlc1wiO1xuaW1wb3J0IFRhYmxlUm93IGZyb20gXCJAbXVpL21hdGVyaWFsL1RhYmxlUm93XCI7XG5cbmNvbnN0IFN0eWxlZFRhYmxlUm93ID0gc3R5bGVkKFRhYmxlUm93KSgoeyB0aGVtZSB9KSA9PiAoe1xuICBcIiY6bnRoLW9mLXR5cGUob2RkKVwiOiB7XG4gICAgYmFja2dyb3VuZENvbG9yOiB0aGVtZS5wYWxldHRlLmFjdGlvbi5ob3ZlcixcbiAgfSxcbiAgXCImOmxhc3QtY2hpbGQgdGQsICY6bGFzdC1jaGlsZCB0aFwiOiB7XG4gICAgYm9yZGVyOiAwLFxuICB9LFxufSkpO1xuZXhwb3J0IGRlZmF1bHQgU3R5bGVkVGFibGVSb3c7Il19

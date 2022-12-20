@@ -1,0 +1,49 @@
+56ee8e45751f884e99c9c004534d11c6
+"use strict";
+var __assign = (this && this.__assign) || function () {
+    __assign = Object.assign || function(t) {
+        for (var s, i = 1, n = arguments.length; i < n; i++) {
+            s = arguments[i];
+            for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p))
+                t[p] = s[p];
+        }
+        return t;
+    };
+    return __assign.apply(this, arguments);
+};
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    Object.defineProperty(o, k2, { enumerable: true, get: function() { return m[k]; } });
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+var jsx_runtime_1 = require("react/jsx-runtime");
+var react_1 = __importStar(require("react"));
+var drawChart_1 = __importDefault(require("./drawChart"));
+require("./style.css");
+var DonutChart = function (_a) {
+    var data = _a.data;
+    var ref = (0, react_1.useRef)(null);
+    if (ref.current)
+        (0, drawChart_1.default)(ref.current, data);
+    return ((0, jsx_runtime_1.jsx)("div", __assign({ className: "container" }, { children: (0, jsx_runtime_1.jsx)("div", { className: "graph", ref: ref }, void 0) }), void 0));
+};
+exports.default = react_1.default.memo(DonutChart);
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJmaWxlIjoiL2hvbWUvdXNlci9SZWFjdCBQcm9qZWN0cy9wYXltZW50LXJlcG9ydHMtdGVzdC10YXNrLW1hc3Rlci11cGRhdGVkL3BheW1lbnQtcmVwb3J0cy10ZXN0LXRhc2stbWFzdGVyL3NyYy9jb21wb25lbnRzL0RvbnV0Q2hhcnQvaW5kZXgudHN4IiwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7OztBQUFBLDZDQUFzQztBQUN0QywwREFBb0M7QUFFcEMsdUJBQXFCO0FBRXJCLElBQU0sVUFBVSxHQUFHLFVBQUMsRUFBc0M7UUFBcEMsSUFBSSxVQUFBO0lBQ3hCLElBQU0sR0FBRyxHQUFHLElBQUEsY0FBTSxFQUFDLElBQUksQ0FBQyxDQUFDO0lBRXpCLElBQUksR0FBRyxDQUFDLE9BQU87UUFBRSxJQUFBLG1CQUFTLEVBQUMsR0FBRyxDQUFDLE9BQU8sRUFBRSxJQUFJLENBQUMsQ0FBQztJQUM5QyxPQUFPLENBQ0wseUNBQUssU0FBUyxFQUFDLFdBQVcsZ0JBQ3hCLGdDQUFLLFNBQVMsRUFBQyxPQUFPLEVBQUMsR0FBRyxFQUFFLEdBQUcsV0FBSSxZQUMvQixDQUNQLENBQUM7QUFDSixDQUFDLENBQUM7QUFFRixrQkFBZSxlQUFLLENBQUMsSUFBSSxDQUFDLFVBQVUsQ0FBQyxDQUFDIiwibmFtZXMiOltdLCJzb3VyY2VzIjpbIi9ob21lL3VzZXIvUmVhY3QgUHJvamVjdHMvcGF5bWVudC1yZXBvcnRzLXRlc3QtdGFzay1tYXN0ZXItdXBkYXRlZC9wYXltZW50LXJlcG9ydHMtdGVzdC10YXNrLW1hc3Rlci9zcmMvY29tcG9uZW50cy9Eb251dENoYXJ0L2luZGV4LnRzeCJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgUmVhY3QsIHsgdXNlUmVmIH0gZnJvbSBcInJlYWN0XCI7XG5pbXBvcnQgZHJhd0NoYXJ0IGZyb20gXCIuL2RyYXdDaGFydFwiO1xuaW1wb3J0IHsgR2VuZXJpY1RhYmxlRGF0YSB9IGZyb20gXCJ0eXBlc1wiO1xuaW1wb3J0IFwiLi9zdHlsZS5jc3NcIjtcblxuY29uc3QgRG9udXRDaGFydCA9ICh7IGRhdGEgfTogeyBkYXRhOiBHZW5lcmljVGFibGVEYXRhW10gfSkgPT4ge1xuICBjb25zdCByZWYgPSB1c2VSZWYobnVsbCk7XG4gIFxuICBpZiAocmVmLmN1cnJlbnQpIGRyYXdDaGFydChyZWYuY3VycmVudCwgZGF0YSk7XG4gIHJldHVybiAoXG4gICAgPGRpdiBjbGFzc05hbWU9XCJjb250YWluZXJcIj5cbiAgICAgIDxkaXYgY2xhc3NOYW1lPVwiZ3JhcGhcIiByZWY9e3JlZn0gLz5cbiAgICA8L2Rpdj5cbiAgKTtcbn07XG5cbmV4cG9ydCBkZWZhdWx0IFJlYWN0Lm1lbW8oRG9udXRDaGFydCk7XG4iXSwidmVyc2lvbiI6M30=
